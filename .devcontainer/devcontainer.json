@@ -27,6 +27,12 @@
 	"forwardPorts": [
 		8080
 	],
+	// SSH Server
+	"features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    	}
+	},
 
 	// add labels
 	"portsAttributes": {
