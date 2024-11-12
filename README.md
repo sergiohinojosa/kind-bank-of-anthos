@@ -6,7 +6,7 @@ Includes a documentation stack (mkdocs) in the `docs` folder.
 
 documentation served here:
 
-[https://sergiohinojosa.github.io/kind-bank-of-anthos-test](https://sergiohinojosa.github.io/kind-bank-of-anthos-test){target=_blank}
+[sergiohinojosa.github.io/kind-bank-of-anthos-test](https://sergiohinojosa.github.io/kind-bank-of-anthos-test){target=_blank}
 
 
 ## Installing docstack
