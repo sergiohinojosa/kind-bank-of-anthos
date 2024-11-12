@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/kubernetes-helm
 {
-	"name": "PLACEHOLDER",
+	"name": "Bank of Anthos in Kind",
 	"dockerFile": "Dockerfile",
 
 	// do not change these if you want Docker in Docker support
@@ -30,7 +30,7 @@
 
 	// add labels
 	"portsAttributes": {
-		"8080": { "label": "Placeholder" }
+		"8080": { "label": "Bank of Anthos" }
 	},
 
 	"hostRequirements": {
@@ -42,7 +42,7 @@
 
 	// Add recommended secrets
 	"secrets": {
-		"PLACEHOLDER": {
+		"TENANT_URL": {
 			 "description": "eg. abc12345 from https://abc12345.apps.dynatrace.com"
 	 }
   }

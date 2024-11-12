@@ -1,6 +1,6 @@
-site_name: "Dynatrace Observability Lab: PLACEHOLDER"
+site_name: "Dynatrace Observability Lab: Bank of Anthos on Kind"
 repo_name: "View Code on GitHub"
-repo_url: "https://github.com/dynatrace/PLACEHOLDER"
+repo_url: "https://github.com/sergiohinojosa/kind-bank-of-anthos-test"
 nav:
   - '1. About': index.md
   - '2. Getting Started': getting-started.md

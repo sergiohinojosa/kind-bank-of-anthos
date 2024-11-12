@@ -1,4 +1,4 @@
-# PLACEHOLDER TITLE HERE
+# Bank of Anthos on Kind
 
 --8<-- "snippets/disclaimer.md"
 --8<-- "snippets/view-code.md"
@@ -26,7 +26,7 @@
 ### Launch Standard Version
 Use this link to start the demo, open a new window and create a new codespace.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dynatrace/demo-PLACEHOLDER){target="_blank"}
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new//sergiohinojosa/kind-bank-of-anthos-test){target="_blank"}
 
 TODO...
 
