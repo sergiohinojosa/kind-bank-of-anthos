@@ -25,7 +25,7 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
-		8080
+		8080, 80, 443
 	],
 	// SSH Server
 	"features": {
@@ -40,7 +40,7 @@
 	},
 
 	"hostRequirements": {
-		"cpus": 2
+		"cpus": 4
 	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.

@@ -20,7 +20,14 @@ nodes:
   - hostPort: 8080
     containerPort: 8080
     protocol: TCP
-  - hostPort: 4317
-    containerPort: 4317
+  - hostPort: 32001
+    containerPort: 32001
+    protocol: TCP
+  - hostPort: 32002
+    containerPort: 32002
+    protocol: TCP
+  - hostPort: 32003
+    containerPort: 32003
+    protocol: TCP
   - hostPort: 4318
     containerPort: 4318
