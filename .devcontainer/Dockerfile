@@ -36,6 +36,12 @@ RUN KIND_RELEASE=$(curl --silent "https://api.github.com/repos/kubernetes-sigs/k
     && curl -sSL -o /usr/local/bin/kind https://kind.sigs.k8s.io/dl/$KIND_RELEASE/kind-linux-amd64 \
     && chmod +x /usr/local/bin/kind
 
+# Install k9s
+RUN curl -sS https://webi.sh/k9s | sh
+
+# Adding kubectl autocompletion to all users 
+RUN kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null
+
 RUN /tmp/scripts/docker.sh
 
 # change ownership of the home directory
