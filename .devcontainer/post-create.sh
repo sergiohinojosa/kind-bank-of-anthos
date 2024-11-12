@@ -3,6 +3,9 @@
 # Create k8s cluster
 kind create cluster --config .devcontainer/kind-cluster.yml --wait 5m
 
+# Install ingress
+kubectl apply -f https://kind.sigs.k8s.io/examples/ingress/deploy-ingress-nginx.yaml
+
 # Your content here
 # TODO
 
